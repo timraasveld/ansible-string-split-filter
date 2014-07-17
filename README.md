@@ -13,18 +13,22 @@ Usage
 
     split(delimiter)
 
-    split_regex(pattern) (regex syntax is identical to Pythons) 
+    split_regex(pattern) #regex syntax is identical to Pythons)#
 
 Examples
 --------
 
 In a Jinja 2 template:
+
     # hostname = dev.example.com
     ldap_server = "dc={{ hostname | split('.') | join(',dc=') }}"
+
 Output:
+
     ldap_server = dc=dev,dc=example,dc=com
 
 The same example, using split_regex:
+
     ldap_server = "dc={{ hostname | split_regex('\.') | join(',dc=') }}"
 
 Contributing
