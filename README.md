@@ -6,7 +6,7 @@ A simple Ansible Jinja2 filter to split a string into a list.
 Setup
 -----
 
-See the [http://docs.ansible.com/developing_plugins.html#distributing-plugins](plugin documentation).
+See the [plugin documentation](http://docs.ansible.com/developing_plugins.html#distributing-plugins).
 
 Usage
 -----
