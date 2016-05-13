@@ -14,7 +14,7 @@ Usage
 ```python
 split(delimiter)
 
-split_regex(pattern) #regex syntax is identical to Pythons)#
+split_regex(pattern) # regex syntax is identical to Pythons
 ```
 
 Examples
