@@ -1,15 +1,15 @@
 from ansible import errors
 import re
 
-def split_string(string, seperator=' '):
+def split_string(string, separator=' '):
     try:
-        return string.split(seperator)
+        return string.split(separator)
     except Exception, e:
         raise errors.AnsibleFilterError('split plugin error: %s, provided string: "%s"' % str(e),str(string) )
 
-def split_regex(string, seperator_pattern='\s+'):
+def split_regex(string, separator_pattern='\s+'):
     try:
-        return re.split(seperator_pattern, string)
+        return re.split(separator_pattern, string)
     except Exception, e:
         raise errors.AnsibleFilterError('split plugin error: %s, provided string: "%s"' % str(e),str(string) )
 
