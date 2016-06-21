@@ -1,3 +1,5 @@
+**! This plugin is no longer neccesary starting with Ansible 2.0, see [this example](https://github.com/timraasveld/ansible-string-split-filter/issues/2#issuecomment-227422158) !**
+
 Ansible-string-split-filter
 ===========================
 
